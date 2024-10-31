@@ -1,9 +1,3 @@
-// Подгрузили данные
-import * as main_page from "../locators/main_page.json";
-import * as recovery_password_page from "../locators/recovery_password_page.json"
-import * as result_page from "../locators/result_page.json"
-import * as data from "../helpers/default_data.json"
-
 describe('Покупка аватара', function () {                                // название набора тестов
     it('e2e тест на покупку нового аватара для тренера', function () {   // название теста
          cy.visit('https://pokemonbattle.ru/');                          // переходим на сайт 
